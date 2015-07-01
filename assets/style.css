@@ -1,0 +1,126 @@
+@charset "utf-8";
+/* CSS Document */
+
+html {
+	background-image:url(metal_2_dark.jpg);
+	background-size: cover;
+}
+body {
+	color: white;
+	font-family: 'Roboto Condensed', sans-serif;
+}
+div{
+	height: 150px;
+	background-size: cover;
+	position: relative;
+}
+p {
+	color: rgba(255,255,255,1);
+	width: 600px;
+	margin: 0 auto;
+}
+h1 {
+	margin: 0 auto;
+	text-align: center;
+	position: relative;
+	top: -240px;
+}
+h2 {
+	margin: 0 auto;
+	text-align: center;
+	position: relative;
+	top: -240px;
+}
+a {
+	height: 150px;
+	color: white;
+	font-weight: bold;
+	text-decoration: none;
+}
+a:hover{
+	text-decoration: underline;
+}
+a:active {
+	text-decoration: underline;
+}
+a:visited {
+	color: #b6babf;
+}
+li {
+	display: inline;
+	padding: 0 25px;
+	position: relative;
+	top: -175px;
+	left: 50px;
+	font-size: 24px;
+	color: white;
+}
+table {
+	position: relative;
+	top: -100px;
+	margin: 10 auto;
+}
+.forum {
+	text-align: center;
+	position: relative;
+	top: -100px;
+}
+.aboutimage {
+	text-align: center;
+	position: relative;
+	margin: 0 auto;
+	top: -220px;
+
+}
+.psheader {
+	position: relative;
+	margin: 0 auto;
+	top: 200px;
+}
+.psvideo {
+	position: relative;
+	margin: 0px auto;
+	text-align: center;
+	top: 200px;
+}
+
+.trailer {
+	position: relative;
+	margin: 0px auto;
+	text-align: center;
+	top: -200px;
+}
+.name {
+	font-size: 36px;
+	font-weight: bold;
+	position: relative;
+	top: -270px;
+	left: 450px;
+	text-align: right;
+	margin: 0 auto;
+}
+.studio {
+	font-size:30px;
+	font-weight: bold;
+	position: relative;
+	text-align:right;
+	top: -280px;
+	margin: 0 auto;
+	left: 450px;
+
+}
+.logo {
+	position: relative;
+	height: 100px;
+	width: 75px;
+	top: -100px;
+	left: 25px;
+}
+.banner {
+	background: rgba(2,86,174,1);
+	background: linear-gradient(top,rgba(2,86,174,1),rgba(2,86,174,0));
+	background: -webkit-linear-gradient(top,rgba(2,86,174,1),rgba(2,86,174,0));
+	background: -moz-linear-gradient(top,rgba(2,86,174,1),rgba(2,86,174,0));
+	margin: -20px;
+
+}
